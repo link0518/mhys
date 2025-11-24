@@ -5,6 +5,8 @@ import { getHistory, clearHistory, deleteRecord, DivinationRecord } from '@/lib/
 import { Trash2, History, ChevronDown, ChevronUp } from 'lucide-react';
 import { Card } from '@/components/ui/card';
 
+import ReactMarkdown from 'react-markdown';
+
 interface HistoryDialogProps {
     open: boolean;
     onOpenChange: (open: boolean) => void;
@@ -117,8 +119,8 @@ export function HistoryDialog({ open, onOpenChange }: HistoryDialogProps) {
                                     <div className="px-4 pb-4 border-t border-stone-100 pt-4">
                                         <div className="prose prose-stone max-w-none text-sm">
                                             <h4 className="text-stone-700 font-medium mb-2">解卦结果</h4>
-                                            <div className="whitespace-pre-wrap text-stone-600 leading-relaxed">
-                                                {record.interpretation}
+                                            <div className="text-stone-600 leading-relaxed">
+                                                <ReactMarkdown>{record.interpretation}</ReactMarkdown>
                                             </div>
                                         </div>
                                     </div>
