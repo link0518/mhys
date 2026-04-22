@@ -83,9 +83,9 @@ export default function Home() {
 
               <div className="flex flex-col items-center gap-4">
                 <div className="h-[1px] w-24 bg-gradient-to-r from-transparent via-stone-300 to-transparent" />
-                <p className="text-base md:text-xl text-stone-500 max-w-xl mx-auto font-kai leading-loose tracking-wide">
+                <p className="text-lg md:text-xl text-stone-600 max-w-xl mx-auto font-song leading-[2.1]">
                   万物皆有数,数中藏玄机。<br />
-                  <span className="text-stone-400 text-sm md:text-base">观物取象 · 以象定数 · 洞悉天机</span>
+                  <span className="mt-2 inline-block text-stone-500 text-sm md:text-base font-ui-cn tracking-[0.12em]">观物取象 · 以象定数 · 洞悉天机</span>
                 </p>
                 <div className="h-[1px] w-24 bg-gradient-to-r from-transparent via-stone-300 to-transparent" />
               </div>

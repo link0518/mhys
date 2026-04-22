@@ -69,6 +69,15 @@ body {
     font-family: "KaiTi", "STKaiti", serif;
   }
 
+  .font-ui-cn {
+    font-family:
+      "Microsoft YaHei",
+      "PingFang SC",
+      "Hiragino Sans GB",
+      "Noto Sans CJK SC",
+      "Source Han Sans SC",
+      sans-serif;
+  }
   .glass-card {
     background: var(--glass-bg);
     backdrop-filter: blur(16px);

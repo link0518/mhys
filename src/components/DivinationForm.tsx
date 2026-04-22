@@ -82,14 +82,14 @@ export default function DivinationForm({ onComplete }: DivinationFormProps) {
             <Card className="w-full max-w-md mx-auto border-stone-200/60 shadow-xl shadow-stone-200/40 bg-white/80 backdrop-blur-md">
                 <CardHeader className="text-center space-y-2 pb-8">
                     <CardTitle className="text-3xl text-stone-800">诚心起卦</CardTitle>
-                    <CardDescription className="text-stone-500 text-sm tracking-widest">
+                    <CardDescription className="font-ui-cn text-stone-600 text-[15px] tracking-[0.12em]">
                         无事不占 · 不动不占 · 诚心静气
                     </CardDescription>
                 </CardHeader>
                 <CardContent>
                     <form onSubmit={handleSubmit} className="space-y-8">
                         <div className="space-y-2">
-                            <Label htmlFor="question" className="text-stone-600 text-base">
+                            <Label htmlFor="question" className="font-ui-cn text-stone-700 text-base">
                                 所问何事 <span className="text-red-400/80">*</span>
                             </Label>
                             <div className="relative">
@@ -122,7 +122,7 @@ export default function DivinationForm({ onComplete }: DivinationFormProps) {
                         <div className="space-y-4 pt-2">
                             <div className="grid grid-cols-3 gap-4">
                                 <div className="space-y-2">
-                                    <Label htmlFor="num1" className="text-stone-600">上卦数</Label>
+                                    <Label htmlFor="num1" className="font-ui-cn text-stone-700">上卦数</Label>
                                     <Input
                                         id="num1"
                                         type="number"
@@ -134,7 +134,7 @@ export default function DivinationForm({ onComplete }: DivinationFormProps) {
                                     />
                                 </div>
                                 <div className="space-y-2">
-                                    <Label htmlFor="num2" className="text-stone-600">下卦数</Label>
+                                    <Label htmlFor="num2" className="font-ui-cn text-stone-700">下卦数</Label>
                                     <Input
                                         id="num2"
                                         type="number"
@@ -146,7 +146,7 @@ export default function DivinationForm({ onComplete }: DivinationFormProps) {
                                     />
                                 </div>
                                 <div className="space-y-2">
-                                    <Label htmlFor="num3" className="text-stone-600">动爻数</Label>
+                                    <Label htmlFor="num3" className="font-ui-cn text-stone-700">动爻数</Label>
                                     <Input
                                         id="num3"
                                         type="number"
